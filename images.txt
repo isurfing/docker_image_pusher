@@ -2,7 +2,7 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 mysql
 mysql:5.7.44
-docker.com/tp4a/tacport:3.5.6
+docker.io/tp4a/tacport:3.5.6
 #支持指定架构
 --platform=linux/arm64 redis/redis-stack
 --platform=linux/arm64 openjdk:8
