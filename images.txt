@@ -8,14 +8,14 @@ redis
 redis/redis-stack
 nginx
 bladex/sentinel-dashboard
-#支持指定架构
+#支持指定架构,For mac
 #--platform=linux/arm64 redis/redis-stack
 #--platform=linux/arm64 openjdk:8
 #--platform=linux/arm64 openjdk:17
 #--platform=linux/arm64 nginx
 #--platform=linux/arm64 bladex/sentinel-dashboard
 
-#For mac
+#
 --platform=linux/amd64 redis/redis-stack
 --platform=linux/amd64 openjdk:8
 --platform=linux/amd64 openjdk:17
