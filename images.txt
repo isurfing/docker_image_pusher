@@ -2,14 +2,20 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 mysql
 mysql:5.7.44
-docker.io/tp4a/tacport:3.5.6-rc6
+openjdk:8
+openjdk:17
+redis
+redis/redis-stack
+nginx
+bladex/sentinel-dashboard
 #支持指定架构
---platform=linux/arm64 redis/redis-stack
---platform=linux/arm64 openjdk:8
---platform=linux/arm64 openjdk:17
---platform=linux/arm64 nginx
---platform=linux/arm64 bladex/sentinel-dashboard
+#--platform=linux/arm64 redis/redis-stack
+#--platform=linux/arm64 openjdk:8
+#--platform=linux/arm64 openjdk:17
+#--platform=linux/arm64 nginx
+#--platform=linux/arm64 bladex/sentinel-dashboard
 
+#For mac
 --platform=linux/amd64 redis/redis-stack
 --platform=linux/amd64 openjdk:8
 --platform=linux/amd64 openjdk:17
