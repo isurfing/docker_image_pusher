@@ -1,13 +1,13 @@
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-mysql
-mysql:5.7.44
-openjdk:8
-openjdk:17
-redis
-redis/redis-stack
-nginx
-bladex/sentinel-dashboard
+#mysql
+#mysql:5.7.44
+#openjdk:8
+#openjdk:17
+#redis
+#redis/redis-stack
+#nginx
+#bladex/sentinel-dashboard
 #支持指定架构,For mac
 #--platform=linux/arm64 redis/redis-stack
 #--platform=linux/arm64 openjdk:8
@@ -18,8 +18,8 @@ bladex/sentinel-dashboard
 --platform=linux/arm64 mysql
 
 #
---platform=linux/amd64 redis/redis-stack
---platform=linux/amd64 openjdk:8
---platform=linux/amd64 openjdk:17
---platform=linux/amd64 nginx
---platform=linux/amd64 bladex/sentinel-dashboard
+#--platform=linux/amd64 redis/redis-stack
+#--platform=linux/amd64 openjdk:8
+#--platform=linux/amd64 openjdk:17
+#--platform=linux/amd64 nginx
+#--platform=linux/amd64 bladex/sentinel-dashboard
