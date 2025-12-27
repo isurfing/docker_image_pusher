@@ -14,6 +14,8 @@ bladex/sentinel-dashboard
 #--platform=linux/arm64 openjdk:17
 #--platform=linux/arm64 nginx
 #--platform=linux/arm64 bladex/sentinel-dashboard
+--platform=linux/arm64 mysql:8.3.0
+--platform=linux/arm64 mysql
 
 #
 --platform=linux/amd64 redis/redis-stack
